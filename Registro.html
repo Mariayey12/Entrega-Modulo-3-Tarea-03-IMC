@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="principal.html"> Inicicio</a>
+            <a class="navbar-brand" href="Registro.html"> Registro</a>
+            <div>
+                <label class="label">Buscar por usuario</label>
+                <input id="inputBuscar">
+                <button id="btnBuscar" class="btn-primary">Buscar</button>
+            </div>
+            <div id="busqueda"></div>
+        </div>
+    </nav>
+    <!-- Agregar -->
+    <div class="card mt-5">
+        <div class="card-body">
+            <form id="formulario">
+                <h1 class="card-title text-center"> Agregar Usuario</h1>
+                <hr/>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-lg-2 col-form-label">Nombre</label>
+                    <div class="mb-4 mb-lg-0">
+                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Name" autoComplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-lg-2 col-form-label">Sexo
+                    </label>
+                    <div class="mb-4 mb-lg-0">
+                        <input type="text" id="sexo" name="sexo" class="form-control" placeholder="Gender" autoComplete=" off " />
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Edad</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="text" id="edad" name="edad" class="form-control " placeholder="Age" autoComplete="off " />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Peso</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="text " id="peso" name="peso" class="form-control" placeholder="Wt" autoComplete="off " />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Estatura</label>
+                        <div class="mb-4 mb-lg-0 ">
+                            <input type="text" id="estaura" name="altura" class="form-control" placeholder="Ht" autoComplete="off " />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Masa Corporal</label>
+                        <div class="mb-4 mb-lg-0 ">
+                            <input type="text " id="masa corporal" name="masa" class="form-control " placeholder="IMC" autoComplete="off " />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-2 col-form-label">Categoria</label>
+                        <div class="mb-4 mb-lg-0">
+                            <input type="text " id="categoria" name="categoria" class="form-control " placeholder="Clasificacion" autoComplete="off " />
+                        </div>
+                    </div>
+                    <button type="submit " class="btn btn-primary">
+                Guardar
+            </button>
+            </form>
+            </div>
+        </div>
+        <!-- Buscar -->
+        <!--Mostrar  -->
+        <div class="card mt-5 " id="listar">
+            <div>
+                <h2 class="card-title text-center">Mostrar Estadistica</h2>
+                <table class="table ">
+                    <thead>
+                        <tr></tr>
+                        <th>Nombre</th>
+                        <th>Sexo</th>
+                        <th>Edad</th>
+                        <th>Peso</th>
+                        <th>Estatura</th>
+                        <th>Masa Corporal</th>
+                        <th>Categoria</th>
+                        </tr>
+                        <tbody id="listarAqui"></tbody>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <script src="./data/im.js" type="module"></script>
+        <script src="./main/Registro.js" type="module"></script>
+</body>
+
+</html>

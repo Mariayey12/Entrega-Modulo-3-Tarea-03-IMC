@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.card {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgba(248, 151, 245, 0.3);
+    box-shadow: 0 0 20px 2px rgba(202, 24, 134, 0.8);
+}
+
+.label {
+    color: rgb(235, 228, 228);
+}
+
+html {
+    font-size: 100%
+}
+
+body {
+    background-color: #070707;
+}

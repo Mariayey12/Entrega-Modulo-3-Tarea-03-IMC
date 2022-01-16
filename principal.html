@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/ccc2.min.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="principal.html">Inicicio</a>
+                <a class="navbar-brand" href="Registro.html">Registro</a>
+            </nav>
+        </header>
+        <div data-role="header">
+            <h3 class="titulo">CALCULADORA IMC</h3>
+        </div>
+        <div class="imc">
+
+            <div class="ui-controlgrup" style="max-width: 900px;">
+                <p>Descubre su indice de masa corporal</p>
+                <label for=" sexM ">Masculino
+                    <img src="./imagen/hombre.png " alt="genero Hombre">
+                    <input type="radio" name="sex" id="Masculino" class="sexM" style="visibility:hidden;">
+            </label>
+                <label for="SexoF">Femenino
+                    <img src="./imagen/mujer.png" alt="genero Mujer">
+                    <input type="radio" name="sex" id="Femenino " class="sexF" style="visibility:hidden;">
+            </label>
+                <label for="Age">Edad 
+                    <input type="text" name="Age" class="años" id="edad">
+            </label>
+                <div>
+                    <label for="Ht">Altura
+                        <input type="text" name="Ht" class="estatura" id="altura">
+                </label>
+                </div>
+                <div>
+                    <label for="Wt">Peso
+                        <input type="text" name="Wt" class="Kilosg" id="peso">
+                </label>
+                </div>
+            </div>
+            <button type="text" id="btn-calcular" class="calcular"><b>CALCULAR IMC</b></button>
+            <p>Resultado:<span id="lectura" class="diag"></span></p>
+            <div id="rango"></div>
+            <div id="categoria" class="clasif"></div>
+        </div>
+        <center>
+            <img src="./imagen/pesoideal.png" alt="tabla de IMC">
+        </center>
+    </div>
+    <script src="./data/im.js" type="module"></script>
+    <script src="./main/script.js" type="module"></script>
+</body>
+
+</html>

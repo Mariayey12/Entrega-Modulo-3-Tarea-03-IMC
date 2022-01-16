@@ -1,0 +1,113 @@
+        html {
+            font-size: 100%
+        }
+        
+        body {
+            background-color: #070707;
+        }
+        
+        h3.titulo {
+            background-color: rgb(62, 155, 19);
+            font-size: 20px;
+            font-family: Arial;
+            width: 150%;
+            max-width: 350px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        p {
+            color-adjust: rgb(235, 228, 228);
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .container {
+            background-color: #f0f3f3;
+            border-bottom: 50px;
+        }
+        
+        .imc {
+            width: 150%;
+            max-width: 350px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            background-color: #f0f3f3;
+            border-bottom: 30px;
+            text-align: center;
+        }
+        
+        .sexM {
+            padding-top: 5pt;
+            height: 5px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .sexF {
+            padding-top: 5pt;
+            height: 5px;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .estatura {
+            border-radius: 25px;
+            width: 120px;
+            text-align: center;
+        }
+        
+        .años {
+            border-radius: 25px;
+            width: 120px;
+            text-align: center;
+        }
+        
+        .Kilosg {
+            border-radius: 25px;
+            width: 120px;
+            text-align: center;
+        }
+        
+        * {
+            margin: 0;
+            font-family: Arial;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .diag {
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 30px;
+        }
+        
+        .clasif {
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 30px;
+        }
+        
+        header nav a {
+            color: #b9dae7;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 30px;
+        }
+        
+        .label {
+            color: rgb(235, 228, 228);
+            text-align: center;
+        }
+        
+        .calcular {
+            background-color: rgb(62, 155, 19);
+            font-size: 20px;
+            font-family: Arial;
+            border-bottom: 28px;
+        }
